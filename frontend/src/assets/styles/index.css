@@ -16,6 +16,10 @@ main {
   padding-left: 0.5rem;
 }
 
+.card-title { /* default bottom margin was too big */
+  margin-bottom: -.1rem;
+}
+
 .product-title {
   height: 2.5em; /* Set a fixed height */
   overflow: hidden; /* Hide overflow content */
